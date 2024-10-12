@@ -1,0 +1,25 @@
+{
+  "name": "incubyte_tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rampratapvarma/Incubyte_TDD_Assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rampratapvarma/Incubyte_TDD_Assessment/issues"
+  },
+  "homepage": "https://github.com/Rampratapvarma/Incubyte_TDD_Assessment#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jest": "^29.7.0"
+  }
+}
