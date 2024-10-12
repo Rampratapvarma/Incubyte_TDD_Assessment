@@ -1,4 +1,4 @@
-const { add } = require('../calculator');
+const { add } = require('./calculator');
 
 describe('String Calculator', () => {
   it('should return 0 for an empty string', () => {
@@ -11,5 +11,9 @@ describe('String Calculator', () => {
 
   it('should return the sum of two numbers separated by a comma', () => {
     expect(add("1,2")).toBe(3);
+  });
+
+  it('should return the sum of numbers separated by new lines', () => {
+    expect(add("1\n2,3")).toBe(6);
   });
 });
